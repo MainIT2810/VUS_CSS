@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+#header img {
+  display: inline;
+}
+
+.slogan {
+  float: right;
+  padding-right: 105px;
+}
+
+#navbar {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#navbar ul {
+  list-style-type: none;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+#navbar ul li.active {
+  border-bottom: 2px solid red;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #848687;
+  font-weight: bold;
+}
+
+#carousel {
+  height: 450px;
+  margin-top: 20px;
+  background-image: url("../images/slider_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#intro .intro-title {
+  text-align: center;
+}
+
+#intro .intro-title h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#intro .intro-content {
+  padding: 0 15px;
+  color: #848687;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#product {
+  margin-top: 70px;
+}
+
+#product .title-product {
+  text-align: center;
+}
+
+#product .title-product img {
+  margin-bottom: 20px;
+}
+
+.course-item {
+  width: 25%;
+  padding: 0 10px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.course-img {
+  width: 100%;
+}
+
+.course-title {
+  font-size: 16px;
+  color: #ff000f;
+  font-weight: bold;
+}
+
+.course-content {
+  font-size: 15px;
+}
+
+#banner {
+  margin-top: 50px;
+}
+
+#banner .title-banner {
+  text-align: center;
+}
+
+#banner .title-banner img {
+  margin-bottom: 20px;
+}
+
+.intro-banner-left {
+  float: left;
+  width: 50%;
+}
+
+.intro-banner-left img {
+  height: 503px;
+  width: 750px;
+  border-bottom: 4px solid #b1154a;
+  padding: 5px 0px 4px 0px;
+}
+
+.intro-banner-left-item {
+  position: relative;
+}
+
+p.title-banner-1 {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  padding: 4px 6px;
+  width: 748px;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  color: white;
+}
+
+.intro-banner-right {
+  float: left;
+  width: 50%;
+  padding: 0 8px 15px 15px;
+}
+
+.intro-banner-right-item {
+  padding: 5px;
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.intro-banner-right img {
+  width: 100%;
+  border-bottom: 4px solid #b1154a;
+  padding-bottom: 5px;
+}
+
+p.title-banner-2 {
+  position: absolute;
+  bottom: 3px;
+  left: 6px;
+  width: 354px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 10px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: white;
+}
+
+#footer {
+  background-color: #b11515;
+  width: 100%;
+  display: inline-block;
+}
+
+#footer .footer-left {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+#footer .footer-right {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+#footer .footer-right p {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.3;
+}
